@@ -1,0 +1,55 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# Virtual environments and local environments
+.venv/
+venv/
+env/
+ENV/
+.env
+.env.*
+!.env.example
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Testing, coverage, and build artifacts
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+.tox/
+.nox/
+build/
+dist/
+*.egg-info/
+
+# Machine learning outputs and downloaded data
+data/
+datasets/
+checkpoints/
+models/
+artifacts/
+*.ckpt
+*.h5
+*.keras
+*.onnx
+*.pt
+*.pth
+
+# Logs and experiment tracking
+*.log
+logs/
+wandb/
+mlruns/
+
+# Local tooling and operating-system files
+.vscode/*
+!.vscode/settings.json
+.idea/
+.DS_Store
+Thumbs.db
